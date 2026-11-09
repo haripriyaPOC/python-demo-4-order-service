@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: order-service
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: order-service
   ports:
