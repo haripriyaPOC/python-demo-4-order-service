@@ -17,7 +17,7 @@ spec:
       containers:
         - name: order-service
           # Replace with your registry/image, for example: docker.io/YOUR_DOCKERHUB_USER/order-service:1.0.0
-          image: YOUR_REGISTRY/order-service:1.0.0
+          image: haripriya1310/python4-backend:v1
           ports:
             - name: http
               containerPort: 8000
